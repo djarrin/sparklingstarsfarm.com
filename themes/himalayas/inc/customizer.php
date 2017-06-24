@@ -547,7 +547,7 @@ add_action('customize_register', 'himalayas_customize_register');
 /*
  * Custom Scripts
  */
-add_action( 'customize_controls_print_footer_scripts', 'himalayas_customizer_custom_scripts' );
+//add_action( 'customize_controls_print_footer_scripts', 'himalayas_customizer_custom_scripts' );
 
 function himalayas_customizer_custom_scripts() { ?>
 <style>
