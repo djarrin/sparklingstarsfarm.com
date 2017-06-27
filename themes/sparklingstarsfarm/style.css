@@ -5,7 +5,33 @@ Description: This is the theme for sparklingstarsfarm.com which is a child theme
 Author: David Jarrin
 Author URI: http://davidjarrin.com
 Template: himalayas
-Version: 1.0.0
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
+
+/**
+ *  Header styles
+*/
+.stick #header-text {
+    margin-left: 0;
+}
+.header-wrapper #site-title {
+    font-size: 16px;
+}
+.header-wrapper #site-description {
+    display: block;
+    border: 0;
+}
+@media (max-width: 885px) {
+    .header-wrapper #site-description {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .stick #header-text {
+        margin-left: -15px;
+        margin-top: 25px;
+        width: 50%;
+    }
+}
